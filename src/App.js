@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import cornhub from './cornhub.png';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <img src={cornhub} />
+          </li>
+          <li>
+            影片
+          </li>
+          <li>
+            分類
+          </li>
+          <li>
+            照片與動圖
+          </li>
+        </ul>
+      </nav>
     </div>
   );
 }

@@ -1,3 +1,4 @@
+/*
 .App {
   text-align: center;
 }
@@ -35,4 +36,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+body{
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.prem{
+  background-color: #C87A07;
+  width: 110px;
+  height: 18px;
+}
+
+.prem-cover{
+  background-color: #FF9900;
+  width: 25px;
+  height: 18px;
 }
