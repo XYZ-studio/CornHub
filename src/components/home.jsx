@@ -1,8 +1,9 @@
 import React from 'react';
+import './sass/home.sass';
 
 const Home = () => {
   return (
-    <div></div>
+    <div id="home"></div>
   );
 };
 
