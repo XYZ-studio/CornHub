@@ -23,10 +23,10 @@ const Navbar = () => {
         <div></div>
       </li>
       <li className="text">
-        <Link to="/">影片</Link>
+        <Link to="/video">影片</Link>
       </li>
       <li className="text">
-        <Link to="/">分類</Link>
+        <Link to="/classes">分類</Link>
       </li>
       <li className="text">
         <Link to="/">照片與動圖</Link>
