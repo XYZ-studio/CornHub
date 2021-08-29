@@ -1,6 +1,6 @@
 import React from 'react';
 import './sass/home.sass';
-const images = [];
+const images = ['pop1.jpg'];
 
 const Home = () => {
   return (
