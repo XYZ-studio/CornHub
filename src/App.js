@@ -3,7 +3,7 @@ import NavBar from './components/navbar';
 import Home from './components/home';
 import Video from './components/video';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from 'react-router-dom';
