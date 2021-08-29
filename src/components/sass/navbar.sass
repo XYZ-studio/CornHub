@@ -5,6 +5,7 @@
   margin: 0
   padding: 0
   display: flex
+  z-index: 99999
   #logo
     height: 100px
     margin: 0
@@ -17,14 +18,17 @@
 
   li
     list-style: none
-    margin: auto 30px
     a
       text-decoration: none
+      height: 100%
+      line-height:100px
+      display: block
       &, &:link, &:visited, &:active, &:hover
         color: #ffff
 
   .text
     text-align: center
+    width: 120px
 
   #navbar-button
     & > *
@@ -36,9 +40,10 @@
     flex-direction: column
     overflow: hidden
 
-    li
-      margin: 10px auto
-
+    li a
+      line-height: 40px
+    .text
+      width: 100%
     #logo
       margin: auto
 

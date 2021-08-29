@@ -4,7 +4,7 @@ import Home from './components/home';
 import Video from './components/video';
 import Picture from './components/picture';
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
 } from 'react-router-dom';
