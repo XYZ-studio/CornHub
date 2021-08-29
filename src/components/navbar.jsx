@@ -29,7 +29,7 @@ const Navbar = () => {
         <Link to="/classes">分類</Link>
       </li>
       <li className="text">
-        <Link to="/">照片與動圖</Link>
+        <Link to="/picture">照片與動圖</Link>
       </li>
     </ul>
   );
