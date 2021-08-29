@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import cornhub from './img/cornhub.png';
+import {Link} from 'react-router-dom';
 import './sass/navbar.sass';
 
 const Navbar = () => {
@@ -13,20 +14,22 @@ const Navbar = () => {
   return (
     <ul id="navbar" style={{height: check ? '100px' : ''}}>
       <li id="logo">
-        <img src={cornhub} />
+        <Link to="/">
+          <img src={cornhub} />
+        </Link>
       </li>
       <li id="navbar-button">
         <input id="check" type="checkbox" onClick={checkFun}/>
         <div></div>
       </li>
       <li className="text">
-        影片
+        <Link to="/">影片</Link>
       </li>
       <li className="text">
-        分類
+        <Link to="/">分類</Link>
       </li>
       <li className="text">
-        照片與動圖
+        <Link to="/">照片與動圖</Link>
       </li>
     </ul>
   );
