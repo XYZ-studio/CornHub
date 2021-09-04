@@ -5,11 +5,14 @@ const images = ['pop1.jpg'];
 const Home = () => {
   return (
     <div id="home">
-      <div className='line'>
+      <div className="line">
         {images.map((file) => {
           return (
-            <div className='vbox' key={file}>
-              <img className='cornimg' src={`/img/${file}`} alt="corn" />
+            <div className="vbox" key={file}>
+              <img className="cornimg" src={`/img/${file}`} alt="corn" />
+              <h5 className="vtitle">
+                video title
+              </h5>
             </div>
           );
         })}
